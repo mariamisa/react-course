@@ -9,14 +9,9 @@ js alow you to make actions and interactively
 user clink / make interaction the server response with new html file ,user make another request the sever will response to front end with new html page
 this is problem single page appearing 
 
-* why react?(let me handel the dom)
-1. we don't change the dom directory (js manipulate the dom el the dom api allow us to make any change (delete,create,change)),react make blueprint for webpage but we have events so we want state then react know what should change 
-
 
 ## react concepts
-1. declarative instead telling the app we simply give it state
-  don't touch or edit the dom directory
- react do this for you by make blueprint website and data for describe website(state) if state change and its know what should change for you .
+1. we don't change the dom directory (js manipulate the dom el the dom api allow us to make any change (delete,create,change)),react make blueprint for webpage but we have events so we want data for describe website(state) then react know what should change 
 2. reusable component that make the website,
  as lego blocks(blueprints,material ui,bootstrap-react)
 3.  component is js function
@@ -29,5 +24,18 @@ this is problem single page appearing
 
 
 5. React is UI library (view)
-  core react library
-  rect dom library : that interact with dom
+  core react library : allow us to write html inside js / make virtual dom
+  rect dom library : that interact with dom ,the robot that compare the change(dom,virtual) and re render the specific components not all website
+
+
+
+## API
+ in the past when we make a request the response is pages , now with api the response is data , we can make many requests from third party api or you own server
+
+ example of apis : ``` https://jsonplaceholder.typicode.com/users ```
+
+
+### class components 
+ * contain render method that display elements and constructor and super method that call the constructor method ,that allow us to access ``` this.state ``` inside Component
+
+ * ``` state ``` similar to js object , to change it use ``` this.setState ``` ,we cant change it directory (because react Unidirectional) 
