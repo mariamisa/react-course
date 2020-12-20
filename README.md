@@ -1,4 +1,17 @@
 # react-course
+the benefit of react :
+write single line of code, 
+html display the text on the webpages
+css the style
+js alow you to make actions and interactively
+
+* how website work for many years
+user clink / make interaction the server response with new html file ,user make another request the sever will response to front end with new html page
+this is problem single page appearing 
+
+* why react?(let me handel the dom)
+1. we don't change the dom directory (js manipulate the dom el the dom api allow us to make any change (delete,create,change)),react make blueprint for webpage but we have events so we want state then react know what should change 
+
 
 ## react concepts
 1. declarative instead telling the app we simply give it state
