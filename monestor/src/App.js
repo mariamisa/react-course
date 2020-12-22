@@ -3,6 +3,8 @@ import Axios from "axios";
 
 import SearchBox from "./components/SearchBox";
 import CardList from "./components/CardList";
+import Layout from "./components/layout/layout.jsx";
+
 import "./App.css";
 
 class App extends Component {
@@ -29,8 +31,10 @@ class App extends Component {
     );
     return (
       <div className="App">
-        <SearchBox searchChange={searchChange}></SearchBox>
-        <CardList monsters={filteredData}></CardList>
+        <Layout>
+          <SearchBox searchChange={searchChange}></SearchBox>
+          <CardList monsters={filteredData}></CardList>
+        </Layout>
       </div>
     );
   }

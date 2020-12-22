@@ -39,3 +39,7 @@ this is problem single page appearing
  * contain render method that display elements and constructor and super method that call the constructor method ,that allow us to access ``` this.state ``` inside Component
 
  * ``` state ``` similar to js object , to change it use ``` this.setState ``` ,we cant change it directory (because react Unidirectional) 
+
+#### children 
+anything that you bass between the open and closed tag.
+example ``` make layout for page that contain the generic layout(header and footer) ,then call the layout and pass children(dynamic data) 
