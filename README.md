@@ -43,3 +43,16 @@ this is problem single page appearing
 #### children 
 anything that you bass between the open and closed tag.
 example ``` make layout for page that contain the generic layout(header and footer) ,then call the layout and pass children(dynamic data) 
+
+#### key
+if any el inside parent el update i only update one element get effected
+``` https://adhithiravi.medium.com/why-do-i-need-keys-in-react-lists-dbb522188bbb ```
+make sure that when we change this el will render just this element
+
+### why do we break things down into components?
+1. reuse the component(we can use on different place and different app ),we make things more flexible
+2. performance improvement and easy to test
+
+### state vs props
+* specific state live on one location,and trickle down as a props
+* any thing on state change ,it will change all component has props related to it.
