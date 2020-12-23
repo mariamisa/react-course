@@ -1,4 +1,4 @@
-# react-course
+# react-course 
 the benefit of react :
 write single line of code, 
 html display the text on the webpages
@@ -54,5 +54,22 @@ make sure that when we change this el will render just this element
 2. performance improvement and easy to test
 
 ### state vs props
-* specific state live on one location,and trickle down as a props
-* any thing on state change ,it will change all component has props related to it.
+* specific state live on one location,and data pass down as a props
+* every time when state change ,it will pass new data to props and call render methods.(as tree who care about changed will re render)
+* ``` setState ``` async ,so if we want something executing after update use the second arg callback function(every time we call setState it will re render)
+
+### synthetic events(face event)
+* every time user make event the function inside face event will run
+
+### why we have .js files and jsx files?
+web hack
+babel => transform all modern js/jsx into older version of js in the public folder when we run the build script.
+
+
+### functional component
+* just get a props and return html.(presentational component)
+its don't have access to state because don't have access to constructor thats is class method
+
+### why we put state on app.js file(decide where put state)
+the data flow on one why and cardList.js need the filter value to make filtered array (we cant access if filter value inside search component)
+``` lifting state up ```

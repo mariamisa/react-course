@@ -1,11 +1,14 @@
 import React from 'react'
 
-export default function SearchBox({searchChange}) {
+import './SearchBox.css'
+
+export default function SearchBox({placeHolder,searchChange}) {
     return (
         <input 
+            className='search'
             type='search'
             onChange={searchChange} 
-            placeholder='enter username'
+            placeholder={placeHolder}
         />
     )
 }
