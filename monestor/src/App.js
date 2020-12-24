@@ -3,7 +3,7 @@ import Axios from "axios";
 
 import SearchBox from "./components/SearchBox";
 import CardList from "./components/CardList";
-// import Layout from "./components/layout/layout.jsx";
+import Layout from "./components/layout/layout.jsx";
 
 import "./App.css";
 
@@ -31,13 +31,13 @@ class App extends Component {
     );
     return (
       <div className="App">
-        {/* <Layout> */}
+        <Layout>
           <SearchBox
             placeHolder="search monster"
             searchChange={searchChange}
           ></SearchBox>
           <CardList monsters={filteredData}></CardList>
-        {/* </Layout> */}
+        </Layout>
       </div>
     );
   }

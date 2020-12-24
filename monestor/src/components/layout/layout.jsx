@@ -1,11 +1,12 @@
 import React from 'react'
 
+import './layout.css';
+
 export default function layout({children}) {
     return (
         <div>
-            <header> header</header>
+            <h1> MonsterS</h1>
              <div>{children}</div>
-            <footer>footer</footer>
         </div>
     )
 }

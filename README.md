@@ -73,3 +73,11 @@ its don't have access to state because don't have access to constructor thats is
 ### why we put state on app.js file(decide where put state)
 the data flow on one why and cardList.js need the filter value to make filtered array (we cant access if filter value inside search component)
 ``` lifting state up ```
+
+### this
+this=>reference to context in witch is being invoked.
+this set to the context of class component 
+* ``` this.newFunction= this.newFunction.bind(this) ``` 
+this here is constructor that ref to component
+* arrow function automatically bind to the place when arrow function are defined .
+
