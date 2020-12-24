@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mariamisa/react-course/static/css/main.ad7ce900.chunk.css",
+    "main.js": "/mariamisa/react-course/static/js/main.c74e3360.chunk.js",
+    "main.js.map": "/mariamisa/react-course/static/js/main.c74e3360.chunk.js.map",
+    "runtime-main.js": "/mariamisa/react-course/static/js/runtime-main.8930f6e3.js",
+    "runtime-main.js.map": "/mariamisa/react-course/static/js/runtime-main.8930f6e3.js.map",
+    "static/js/2.67137c19.chunk.js": "/mariamisa/react-course/static/js/2.67137c19.chunk.js",
+    "static/js/2.67137c19.chunk.js.map": "/mariamisa/react-course/static/js/2.67137c19.chunk.js.map",
+    "static/js/3.57fab60e.chunk.js": "/mariamisa/react-course/static/js/3.57fab60e.chunk.js",
+    "static/js/3.57fab60e.chunk.js.map": "/mariamisa/react-course/static/js/3.57fab60e.chunk.js.map",
+    "index.html": "/mariamisa/react-course/index.html",
+    "static/css/main.ad7ce900.chunk.css.map": "/mariamisa/react-course/static/css/main.ad7ce900.chunk.css.map",
+    "static/js/2.67137c19.chunk.js.LICENSE.txt": "/mariamisa/react-course/static/js/2.67137c19.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8930f6e3.js",
+    "static/js/2.67137c19.chunk.js",
+    "static/css/main.ad7ce900.chunk.css",
+    "static/js/main.c74e3360.chunk.js"
+  ]
+}
