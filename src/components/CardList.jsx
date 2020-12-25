@@ -2,7 +2,7 @@ import React from 'react'
 
 import Card from './Card'
 
-import './card-list.css'
+import './CardList.css'
 
 export default function CardList({ monsters}) {
     return (

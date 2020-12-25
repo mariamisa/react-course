@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './layout.css';
+import './Layout.css';
 
-export default function layout({children}) {
+export default function Layout({children}) {
     return (
         <div>
             <h1> MonsterS</h1>
