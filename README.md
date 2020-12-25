@@ -81,3 +81,6 @@ this set to the context of class component
 this here is constructor that ref to component
 * arrow function automatically bind to the place when arrow function are defined .
 
+
+### what is react do ?
+its hard to update el on the dom, so react make virtual dom (copy the dom) ,when we make update its copy the virtual dom again and apply the change to the new virtual dom the compare the virtual dom2 with actual dom,and can make multiple updates
