@@ -83,4 +83,22 @@ this here is constructor that ref to component
 
 
 ### what is react do ?
-its hard to update el on the dom, so react make virtual dom (copy the dom) ,when we make update its copy the virtual dom again and apply the change to the new virtual dom the compare the virtual dom2 with actual dom,and can make multiple updates
+its hard to update el on the dom, so react make virtual dom (copy the dom) ,when we make update its copy the virtual dom again and apply the change to the new virtual dom the compare the virtual dom2 with actual dom,and can make multiple updates.
+
+### lifecycle
+1. mounting => the phase when the comp put on the dom at the first time
+1. constructor
+2. render method
+3. componentDidMount
+
+2. updating => when we pass new props / setState/forceUpdate()
+(update the dom with changes,peace is effected )
+* after update the dom call the ``` componentDidUpdate ```
+
+* shouldComponentUpdate 
+if the props change have to update id not return false no reason to update . setState make force update (حتى لو حدث بالقيمة نفسها) inside shouldComponentUpdate method we make ``` nextProps.text !== this.props.text; // true make re render ,false not make ``` (for performance)
+
+3. un mounting =>  when remove el from the dom
+``` componentWillUnmount ``` 
+
+

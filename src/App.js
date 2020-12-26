@@ -14,7 +14,6 @@ class App extends Component {
   searchChange = ({ target: { value } }) => {
     this.setState({ filtered: value });
   };
-
   render() {
     const {
       searchChange,
