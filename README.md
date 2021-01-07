@@ -58,6 +58,9 @@ make sure that when we change this el will render just this element
 * every time when state change ,it will pass new data to props and call render methods.(as tree who care about changed will re render)
 * ``` setState ``` async ,so if we want something executing after update use the second arg callback function(every time we call setState it will re render)
 
+* the Props Drilling ?
+ (Threading) is a concept that refers to the process you pass the data from the parent component to the exact child Component BUT in between, other components owning the props just to pass it down the chain. [readmore](https://medium.com/front-end-weekly/props-drilling-in-react-js-723be80a08e5#:~:text=Diagram%2D2%2D,pass%20it%20down%20the%20chain.)
+
 ### synthetic events(face event)
 * every time user make event the function inside face event will run
 
